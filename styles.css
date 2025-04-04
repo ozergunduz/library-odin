@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(221, 169, 55);
+    margin: 0;
+    padding: 0;
+}
+.title {
+    color: bisque;
+    font-size: 50px;
+    text-align: center;
+}
+.topBar{
+    background-image: url(topBarImage.jpg);
+    background-size: cover;
+    border-bottom: 1px solid rgb(65, 47, 47);
+    background-position: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+#newBook {
+    border-radius: 5px;
+    margin: 15px 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    border: 0px;
+    cursor: pointer;
+
+}
