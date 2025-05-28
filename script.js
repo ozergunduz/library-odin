@@ -1,13 +1,16 @@
 // Library array to store books
 const myLibrary = [];
 
-// Object constructor for books
-function Book(name, author, read) {
+// Class for books
+class Book {
+  constructor(name, author, read) {
     this.id = crypto.randomUUID();
     this.name = name;
     this.author = author;
-    this.read = read;  // ✅ Added read property
+    this.read = read;
+  }
 }
+
 
 //Book section 
 const bookSection = document.createElement("div");
